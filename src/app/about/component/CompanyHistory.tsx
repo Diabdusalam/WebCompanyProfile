@@ -4,7 +4,7 @@ export const CompanyHistory = () => {
     <section className=" relative flex h-screen items-center justify-center bg-gray-100 py-12 max-md:h-[1000px] ">
       <div className="container mx-auto my-12 items-center justify-items-center md:flex  md:h-screen">
         <div className="w-full ">
-          <h1 className="mb-16 text-3xl font-bold text-gray-900 md:text-4xl">
+          <h1 className="mb-16 text-3xl font-bold text-gray-900 max-md:text-center md:text-4xl">
             Our Journey
           </h1>
           <p className="md:text- mb-4 text-lg leading-relaxed text-gray-800">

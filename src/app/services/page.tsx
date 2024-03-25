@@ -16,7 +16,7 @@ export default function page() {
       {/* content */}
       <div className="my-40 h-full w-full">
         <div className="flex w-full flex-col items-center justify-center">
-          <h1 className="py-4 text-3xl font-bold">
+          <h1 className="max:md:text-xl py-4 text-3xl font-bold max-md:text-center">
             IT'S TIME TO START YOUR ADVENTURES
           </h1>
 

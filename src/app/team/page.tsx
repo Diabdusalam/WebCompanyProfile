@@ -3,9 +3,6 @@ import React, { useState, useEffect } from "react";
 import CardTeam from "./components/CardTeam";
 
 interface RandomUser {
-  login: {
-    uuid: string;
-  };
   picture: {
     large: string;
   };
