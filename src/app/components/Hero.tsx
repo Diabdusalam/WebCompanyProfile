@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HeroPage() {
   return (
     <div className=" flex h-screen w-full flex-col items-center  justify-center bg-[url('/background.jpg')] bg-cover text-white  ">
@@ -11,7 +13,7 @@ export default function HeroPage() {
           <p>moment you never see before</p>
         </div>
         <button className="mb-8 mt-8 w-32 rounded bg-white p-3 font-bold text-black  hover:bg-gray-300 max-lg:text-sm">
-          Get Started
+          <Link href="/services">Get Started</Link>
         </button>
       </div>
     </div>

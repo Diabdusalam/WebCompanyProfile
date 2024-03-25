@@ -58,7 +58,7 @@ export default function Navbar() {
                 <AlignJustify className="text-white" size="24" />
               </SheetTrigger>
               <SheetContent className="bg-transparent backdrop-blur-lg">
-                <nav>
+                <div>
                   <ul className="flex flex-col gap-4 p-4">
                     <p className="text-white hover:underline">
                       <Link href={"/"}>Home</Link>
@@ -73,7 +73,7 @@ export default function Navbar() {
                       <Link href={"/team"}>Teams</Link>
                     </p>
                   </ul>
-                </nav>
+                </div>
               </SheetContent>
             </Sheet>
           </div>
